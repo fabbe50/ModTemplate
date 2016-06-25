@@ -1,28 +1,25 @@
-package com.thefifthidiot.tficore.core.proxy;
+package com.exampledev.examplemod.core.proxy;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-/*	This is the ClientProxy class, it used for:
- * 		
- * 	Registering:
- * 		particles
- * 		guis
- * 		block models and textures
- * 		item models and textures
+/*	This is the CommonProxy class, it is used for:
  * 
+ * 	Registering
+ * 		blocks
+ * 		entities
+ * 		items
+ * 		tile entities
  */
-public class ClientProxy extends CommonProxy {
+public class CommonProxy {
 	public void preInit(FMLPreInitializationEvent event) {
-		super.preInit(event);
 	}
 	
     public void init(FMLInitializationEvent event) {
-    	super.init(event);
     }
     
     public void postInit(FMLPostInitializationEvent event) {
-    	super.postInit(event);
+    	
     }
 }
